@@ -45,6 +45,11 @@ header a {
   height: 84%;
 }
 
+h1 {
+  font-size: calc(1vw + 1vh);
+  font-weight: 600;
+}
+
 nav {
   z-index: 3;
   width: 20%;
