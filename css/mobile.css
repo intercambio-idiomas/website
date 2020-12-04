@@ -12,8 +12,8 @@
     max-height: none;
     margin: 2.5vh 0 0 0;
     display: flex;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
   }
 
   header {
