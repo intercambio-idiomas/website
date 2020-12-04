@@ -3,13 +3,17 @@
   .hide {
     display: none;
   }
+
+  body {
+    align-items: flex-start;
+  }
+
   .container {
-    width: 95vw;
-    height: 95vh;
     max-height: none;
+    margin-top: 2.5vh;
     display: flex;
-    align-items: center; /*x*/
-    justify-content: flex-start; /*y*/
+    align-items: center;
+    justify-content: flex-start;
   }
 
   header {

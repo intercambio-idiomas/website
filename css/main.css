@@ -1,3 +1,4 @@
+/*justify-content = x, align-items = y*/
 body {
   margin: 0;
   display: flex;
@@ -13,8 +14,8 @@ body {
 .container {
   z-index: 2;
   margin: 0;
-  width: 96vw;
-  height: 96%;
+  width: 95vw;
+  height: 95vh;
   max-width: 1200px;
   max-height: 600px;
   display: flex;
