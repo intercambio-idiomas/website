@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) /*check value in slides.css*/ {
+@media screen and (max-width: 800px) and (orientation: portrait) {
 
   .hide {
     display: none;
@@ -17,7 +17,6 @@
   }
 
   header {
-  /*  position: static;*/
     height: 7%;
   }
 
@@ -26,7 +25,6 @@
   }
 
   nav {
-    /*position: static;*/
     width: 100%;
     height: 13%;
     margin: 0;
