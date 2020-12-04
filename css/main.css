@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /*x*/
+  justify-content: center;; /*y*/
+}
+
+.hash-content {
+  display: none;
+}
+
+.container {
+  z-index: 2;
+  margin: 0;
+  width: 96vw;
+  height: 96%;
+  max-width: 1200px;
+  max-height: 600px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+.container > main, a {
+  background-color: rgba(255,255,255,0.6);
+  -webkit-transition: background-color 0.3s linear; /* Safari */
+  transition: background-color 0.3s linear;
+  color: #4E4E4E;
+  -webkit-transition: color 0.3s linear; /* Safari */
+  transition: color 0.3s linear;
+}
+
+header {
+  width: 100%;
+  height: 14.3%;
+  justify-content: space-around;
+	align-items: : center;
+}
+
+header a {
+  height: 84%;
+}
+
+nav {
+  z-index: 3;
+  width: 20%;
+  height: 87.7%;
+  display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+nav a {
+  height: 14%;
+}
+
+main {
+  z-index: 4;
+  width: 74%;
+  height: auto;
+  max-height: 80% !important;
+  padding: 2%;
+  font-size: calc(1vw + 1vh);
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  overflow: auto;
+}
+
+a {
+  width: 100%;
+  background-color: rgba(255,255,255,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: calc(1vw + 1vh);
+  font-family: 'Archivo', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+a:focus {
+    outline-offset: 0;
+    outline: -webkit-focus-ring-color none;
+}
+
+a:target {
+  background-color: rgba(0,0,0,0.4);
+  -webkit-transition: background-color 0.3s linear; /* Safari */
+  transition: background-color 0.3s linear;
+  color: #BFBFBF;
+  -webkit-transition: color 0.3s linear; /* Safari */
+  transition: color 0.3s linear;
+
+}
+
+a:hover:not(:target) {
+  background-color: rgba(0,0,0,0.4);
+  color: #BFBFBF;
+  -webkit-transition: color 0.3s linear; /* Safari */
+  transition: color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear; /* Safari */
+  transition: background-color 0.3s linear;
+}

@@ -1,0 +1,171 @@
+.pan-fade {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+figure {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+  opacity: 0;
+  animation: slideShow 20s linear infinite 0s;
+  -o-animation: slideShow 20s linear infinite 0s;
+  -moz-animation: slideShow 20s linear infinite 0s;
+  -webkit-animation: slideShow 20s linear infinite 0s;
+}
+
+.image1 {
+  opacity: 1;
+  background: url(../images/thames-view.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.image2 {
+  animation-delay: 4s;
+  -o-animation-delay: 4s;
+  -moz--animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  background: url(../images/baker-street-tube.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.image3 {
+  animation-delay: 8s;
+  -o-animation-delay: 8s;
+  -moz--animation-delay: 8s;
+  -webkit-animation-delay: 8s;
+  background: url(../images/st-pauls.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.image4 {
+  animation-delay: 12s;
+  -o-animation-delay: 12s;
+  -moz--animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+  background: url(../images/english-parliament.webp) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.image5 {
+  animation-delay: 16s;
+  -o-animation-delay: 16s;
+  -moz--animation-delay: 16s;
+  -webkit-animation-delay: 16s;
+  background: url(../images/tower-bridge.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@keyframes
+slideShow {
+   0% {
+   opacity: 0;
+   transform:scale(1);
+   -ms-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   transform:scale(1.1);
+   -ms-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   transform:scale(1);
+   -ms-transformm:scale(1);
+  }
+}
+
+@-o-keyframes
+slideShow {
+   0% {
+   opacity: 0;
+   -o-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   -o-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   -o-transformm:scale(1);
+  }
+}
+
+@-moz-keyframes
+slideShow {
+   0% {
+   opacity: 0;
+   -moz-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   -moz-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   -moz-transformm:scale(1);
+  }
+}
+
+@-webkit-keyframes
+slideShow {
+    0% {
+   opacity: 0;
+   -webkit-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   -webkit-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   -webkit-transformm:scale(1);
+  }
+}
