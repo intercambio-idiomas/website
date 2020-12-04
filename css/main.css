@@ -15,6 +15,7 @@ html, body {
 }
 
 .container {
+  position: static;
   z-index: 2;
   margin: 0;
   width: 95vw;
