@@ -1,6 +1,7 @@
 /*justify-content = x, align-items = y*/
 html, body {
   overflow-anchor: none;
+  touch-action: none;
   width: 100vw;
   height: 100vh;
   margin: 0;
