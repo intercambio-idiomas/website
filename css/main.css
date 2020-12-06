@@ -1,7 +1,7 @@
 /*justify-content = x, align-items = y*/
-html, body {
-  overflow-anchor: none;
-  touch-action: none;
+body {
+  /*overflow-anchor: none;
+  touch-action: none;*/
   margin: 0;
   padding: 0;
   display: flex;
@@ -16,9 +16,9 @@ html, body {
 
 .lock-screen {/*stop scrolling*/
     height: 100%;
-    overflow: hidden;
     width: 100%;
     position: fixed;
+    overflow: hidden;
 }
 
 .container {
