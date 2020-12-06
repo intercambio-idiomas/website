@@ -57,9 +57,11 @@ header a {
   height: 84%;
 }
 
-h1 {
+h1, h2 {
   font-size: calc(1vw + 1vh);
   font-weight: 600;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 nav {
