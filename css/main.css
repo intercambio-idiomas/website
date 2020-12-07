@@ -35,6 +35,7 @@ body {
 	justify-content: space-between;
 	align-items: flex-start;
 	align-content: flex-start;
+  font-size: calc(1vw + 1vh);
 }
 
 .container > main, a {
@@ -59,8 +60,6 @@ header a {
 
 h1, h2 {
   font-size: inherit;
-  /*font-size: calc(1vw + 1vh);*/
-  /*font-weight: normal;*/
   text-decoration-thickness: 0;
   margin-block: 0;
 }
@@ -98,7 +97,7 @@ a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-size: calc(1vw + 1vh);
+  font-size: inherit;
   font-family: 'Archivo', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
