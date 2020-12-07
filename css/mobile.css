@@ -52,6 +52,7 @@
     height: auto;
     max-height: 80% !important;
     margin: 2% 0 0 0;
+    font-size: calc(1vw + 1vh);
   }
 
 }

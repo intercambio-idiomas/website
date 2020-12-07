@@ -58,10 +58,11 @@ header a {
 }
 
 h1, h2 {
-  font-size: calc(1vw + 1vh);
-  font-weight: 600;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  font-size: inherit;
+  /*font-size: calc(1vw + 1vh);*/
+  /*font-weight: normal;*/
+  text-decoration-thickness: 0;
+  margin-block: 0;
 }
 
 nav {
@@ -84,7 +85,7 @@ main {
   height: auto;
   max-height: 80% !important;
   padding: 2%;
-  font-size: calc(1vw + 1vh);
+  font-size: calc(0.9vw + 0.9vh);
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   overflow: auto;
