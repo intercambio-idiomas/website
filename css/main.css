@@ -125,3 +125,13 @@ a:hover:not(:target) {
   -webkit-transition: background-color 0.3s linear; /* Safari */
   transition: background-color 0.3s linear;
 }
+
+.google-map {
+   width: 100%;
+   height: auto;
+   frameborder: 0;
+   border: 0;
+   allowfullscreen: true;
+   aria-hidden: false;
+   tabindex: 0;
+}

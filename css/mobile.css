@@ -6,7 +6,7 @@
 
   body {
     align-items: flex-start;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .container {
@@ -15,6 +15,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  .container, .container * {
+    font-size: inherit;
   }
 
   header {
@@ -53,7 +57,7 @@
     height: auto;
     max-height: 80% !important;
     margin: 2% 0 0 0;
-    font-size: inherit;
+    /*font-size: inherit;*/
   }
 
 }
