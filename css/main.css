@@ -131,7 +131,6 @@ a:hover:not(:target) {
   height: auto;
   background-color: inherit;
   display: inline;
-  /*font-size: inherit;*/
 }
 
 .google-map {
@@ -146,4 +145,16 @@ a:hover:not(:target) {
 
 .covid {
   font-weight: bold;
+}
+
+/*.contact-images {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    max-height: 40%;
+    border: 0;
+    margin: 0;
+    opacity: 0;
+  }*/
 }
