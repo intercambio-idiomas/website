@@ -126,6 +126,14 @@ a:hover:not(:target) {
   transition: background-color 0.3s linear;
 }
 
+.external-links {
+  width: auto;
+  height: auto;
+  background-color: inherit;
+  display: inline;
+  /*font-size: inherit;*/
+}
+
 .google-map {
    width: 100%;
    height: auto;
@@ -134,4 +142,8 @@ a:hover:not(:target) {
    allowfullscreen: true;
    aria-hidden: false;
    tabindex: 0;
+}
+
+.covid {
+  font-weight: bold;
 }
