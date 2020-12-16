@@ -157,6 +157,16 @@ a:hover:not(:target) {
   font-weight: bold;
 }
 
+.whatsapp {
+  height: 1em;
+  display: inline-block;
+}
+
+.flags {
+  width: 80%;
+  max-width: 60px;
+}
+
 /*.contact-images {
     position: relative;
     text-align: center;
