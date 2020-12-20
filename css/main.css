@@ -35,7 +35,7 @@ body {
 	justify-content: space-between;
 	align-items: flex-start;
 	align-content: flex-start;
-  font-size: calc(1vw + 1vh);
+  font-size: calc(0.8vw + 0.8vh);
 }
 
 .container > main, a {
@@ -61,11 +61,11 @@ header a {
 }
 
 #home {
-  width: 90%;
+  width: 84%;
 }
 
 #language {
-  width: 8%;
+  width: 14%;
 }
 
 h1, h2 {
@@ -94,7 +94,7 @@ main {
   height: auto;
   max-height: 80% !important;
   padding: 2%;
-  font-size: calc(0.9vw + 0.9vh);
+  font-size: calc(0.8vw + 0.8vh);
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   overflow: auto;
@@ -164,13 +164,14 @@ a:hover:not(:target) {
 
 .flags {
   width: 80%;
-  max-width: 60px;
+  max-width: 70px;
+  max-height: 80%;
 }
 
 .underground-icon {
   width: auto;
   max-height: 90%;
-  padding: 0 2%;
+  padding: 0 1%;
 }
 
 /*.contact-images {
