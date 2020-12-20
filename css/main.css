@@ -167,6 +167,12 @@ a:hover:not(:target) {
   max-width: 60px;
 }
 
+.underground-icon {
+  width: auto;
+  max-height: 90%;
+  padding: 0 2%;
+}
+
 /*.contact-images {
     position: relative;
     text-align: center;
