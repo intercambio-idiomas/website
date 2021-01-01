@@ -158,8 +158,10 @@ a:hover:not(:target) {
 }
 
 .whatsapp {
-  height: 1em;
-  display: inline-block;
+  height: 1.5em;
+  display: inline;
+  background-color: transparent;
+  vertical-align: middle;
 }
 
 .flags {
@@ -172,16 +174,4 @@ a:hover:not(:target) {
   width: auto;
   max-height: 90%;
   padding: 0 1%;
-}
-
-/*.contact-images {
-    position: relative;
-    text-align: center;
-    width: 40%;
-    height: auto;
-    max-height: 40%;
-    border: 0;
-    margin: 0;
-    opacity: 0;
-  }*/
 }
